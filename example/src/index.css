@@ -1,0 +1,11 @@
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.del {
+  text-decoration: line-through;
+}
