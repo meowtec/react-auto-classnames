@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --mode=development",
+    "vite": "vite",
     "build": "webpack  --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@emotion/react": "^11.4.1",
     "clsx": "^1.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

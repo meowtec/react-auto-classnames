@@ -1,6 +1,6 @@
 # react-auto-classnames
 
-Using `className={array|obj}` without `import 'classnames|clsx'`.
+JSX runtime for applying `clsx()` to `className` prop automatically.
 
 NOT a babel plugin.
 
@@ -12,7 +12,7 @@ npm i react-auto-classnames
 
 ## Usage
 
-If you use TypeScript, edit your `tsconfig.json` as:
+If you use TypeScript, edit your `tsconfig.json` like:
 
 ```js
 {

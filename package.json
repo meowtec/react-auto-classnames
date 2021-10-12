@@ -1,9 +1,15 @@
 {
   "name": "react-auto-classnames",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSX runtime for applying `clsx()` automatically",
+  "keywords": [
+    "react",
+    "classnames",
+    "clsx",
+    "jsx-runtime"
+  ],
   "main": "./index.js",
-  "types": "./types/index.d.ts",
+  "types": "./index.d.ts",
   "files": [
     "README.md",
     "LICENSE",
@@ -14,7 +20,8 @@
     "jsx-dev-runtime"
   ],
   "scripts": {},
-  "author": "",
+  "author": "meowtec <bertonzh@gmail.com>",
+  "homepage": "https://github.com/meowtec/react-auto-classnames",
   "license": "MIT",
   "dependencies": {
     "clsx": "^1.1.1"

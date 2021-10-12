@@ -2,7 +2,7 @@ import { render } from 'react-dom';
 import './index.css';
 
 export default function App() {
-  const j = (
+  return (
     <>
       <div
         className={['red', 'bold']}
@@ -11,13 +11,10 @@ export default function App() {
         <span className={{del: true}}>text</span>
       </div>
     </>
-  )
-
-  console.log(j)
-  return j
+  );
 }
 
 render(
   <App />,
   document.querySelector('#root'),
-)
+);
