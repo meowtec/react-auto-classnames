@@ -29,7 +29,6 @@ If you use `@babel/preset-react` to transform jsx:
 // .babelrc / babel.config.json
 {
   "presets": [
-    "@babel/preset-typescript",
     [
       "@babel/preset-react",
       {
@@ -64,6 +63,6 @@ function App() {
     }]}>
   )
 }
-
-[clsx](https://github.com/lukeed/clsx) will be used to handle the `className` object.
 ```
+
+[clsx](https://github.com/lukeed/clsx) will be used to handle the `className` prop.
