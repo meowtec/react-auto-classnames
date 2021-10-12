@@ -1,5 +1,6 @@
 {
-  "name": "react-auto-classnamess-example",
+  "name": "react-auto-classnames-example",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
